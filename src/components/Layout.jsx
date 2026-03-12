@@ -4,12 +4,14 @@ import Footer from "./Footer";
 
 export default function Layout() {
     return (
-        <>
+        <div className="site">
             <Navbar />
-            <main style={{ padding: "1rem"}}>
+            <main className="site_main">
+                <div className="container">
                 <Outlet />
+                </div>
             </main>
             <Footer />
-            </>
+            </div>
     );
 }

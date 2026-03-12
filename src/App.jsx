@@ -9,6 +9,7 @@ import Blog from "./pages/Blog";
 import BlogDetail from "./pages/BlogDetail";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import './index.css'
 
 export default function App() {
   return (
