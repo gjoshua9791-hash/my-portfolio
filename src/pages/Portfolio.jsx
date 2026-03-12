@@ -1,3 +1,9 @@
+import Page from "../components/Page";
+
 export default function Portfolio() {
-    return <h1>Portfolio</h1>
+    return (
+    <Page title="Portfolio">
+    <p>...</p>
+    </Page>
+        );
 }

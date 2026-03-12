@@ -1,3 +1,9 @@
+import Page from "../components/Page";
+
 export default function Blog() {
-    return <h1>Blog</h1>
+    return (
+    <Page title="Blog">
+    <p>...</p>
+    </Page>
+        );
 }

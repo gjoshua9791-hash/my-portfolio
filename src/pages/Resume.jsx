@@ -1,3 +1,9 @@
+import Page from "../components/Page";
+
 export default function Resume() {
-    return <h1>Resume</h1>
+    return (
+    <Page title="Resume">
+    <p>...</p>
+    </Page>
+        );
 }
