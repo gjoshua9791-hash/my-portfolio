@@ -43,7 +43,7 @@ export default function Resume() {
                         </div>
 
                             <div className="resume_skillGroup">
-                            <h3 className="resume_skillHeading">Stengths</h3>
+                            <h3 className="resume_skillHeading">Strengths</h3>
                             <div className="resume_pills">
                                 <span className="skill_pill">Communication</span>
                                 <span className="skill_pill">Teamwork</span>
