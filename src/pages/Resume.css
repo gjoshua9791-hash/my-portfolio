@@ -1,0 +1,146 @@
+.resume {
+    padding: 24px 0;
+}
+
+.resume_header {
+    margin-bottom: 24px;
+}
+
+.resume_title{
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.resume_summary{
+    margin: 10px 0 0;
+    max-width: 70ch;
+    color: #6a6969;
+    line-height:1.7;
+}
+
+.resume_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: start;
+}
+
+.resume_left, .resume_right {
+    min-width: 0;
+}
+
+.resume_section {
+    border: 1px solid #eee;
+    background: white;
+    border-radius: 16px;
+    padding: 18px;
+    margin-bottom: 16px;
+}
+
+.resume_sectionTitle {
+    margin: 0 0 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.resume_skillGroup {
+    margin-top: 14px;
+
+}
+
+.resume_skillHeading {
+    margin: 0 0 8px;
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.resume_pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill_pill {
+    border: 1px solid #eee;
+    background: #fafafa;
+    border-radius: 999px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.resume_item {
+    padding: 12px 0;
+    border-top: 1px solid #f2f2f2;
+}
+
+.resume_item:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.resume_itemTitle {
+    margin:0;
+    font-weight: 700;
+    color: #222;
+}
+
+.resume_itemTop {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: baseline;
+}
+
+.resume_itemDate {
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.resume_itemMeta {
+    margin: 6px 0 8px;
+    color: #6a6969;
+
+}
+
+.resume_list {
+    margin:0;
+    padding-left: 18px;
+    color: #555;
+    line-height: 1.7;
+
+}
+
+.resume_list li {
+    margin-bottom: 6px;
+}
+
+.resume_downloadWrap {
+    margin-top: 10px;
+}
+
+.resume_downloadbttn {
+    display: inline-block;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: #111;
+    color: white;
+    font-weight: 700;
+}
+
+.resume_downloadbttn:hover {
+    background: #333;
+}
+
+@media (max-width: 768px){
+    .resume_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .resume_title{
+        font-size:32px;
+    }
+}
