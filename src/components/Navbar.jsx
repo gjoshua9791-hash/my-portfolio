@@ -18,7 +18,7 @@ export default function Navbar() {
             >
                ☰ </button>
             <div className={`navbar_links ${isMobileOpen ? "is-open" : ""} `}>   
-            <Link to="/" className="navbar_link" onClick={() => setIsMobileOpen(false)}>Home</Link>
+            
             <Link to="/about" className="navbar_link" onClick={() => setIsMobileOpen(false)}>About</Link>
             <Link to="/resume" className="navbar_link" onClick={() => setIsMobileOpen(false)}>Resume</Link>
             <Link to="/portfolio" className="navbar_link" onClick={() => setIsMobileOpen(false)}>Portfolio</Link>
