@@ -10,7 +10,7 @@ export default function Navbar() {
         <nav className="navbar_inner">
 
             <Link to ="/" className="navbar_brand">
-                Portfolio 
+                Home 
                 </Link>
 
             <button className="navbar_toggle" type="button" onClick={() => setIsMobileOpen((prev) =>!prev)}
